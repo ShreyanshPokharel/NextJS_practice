@@ -1,30 +1,3 @@
-// import React from 'react'
-
-// interface User{
-//     id: number;
-//     name: string;
-//     username: string;
-// }
-// const   UsersPage  = async () => {
-//     const res = await fetch('https://jsonplaceholder.typicode.com/users');
-//     const users : User[]= await res.json();
-//   return (
-    
-//         <>
-//         <main className="p-5">
-//         <ul className="mt-4 space-y-3">
-//         <h1 className="text-2xl font-bold">Company Users</h1>
-//             {users.map(users => <li key = {users.id} className="p-4 bg-gray-100 rounded-lg shadow">Name: {users.name} <br/>Username: {users.username}</li>) }
-//         </ul>
-//         </main>
-//         </>
-    
-//   )
-// }
-
-// export default UsersPage 
-
-
 import React from 'react';
 
 interface User {
